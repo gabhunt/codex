@@ -88,7 +88,7 @@ const handleSubmit = async (e) => {
     
 // il faut mettre ici le lien vers le coté serveur generé par node server.js!!!!
 
-    const response = await fetch('http://localhost:5000/', {
+    const response = await fetch('https://codes-8z3o.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
